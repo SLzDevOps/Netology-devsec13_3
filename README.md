@@ -15,7 +15,7 @@ sudo nmap -sV 192.168.70.147
 ![alt text](https://github.com/SLzDevOps/Netology-devsec13_3/blob/main/Screenshot_616.png).  
 
   
-Suricata на все команды сканирования, кроме sudo nmap -sA 192.168.70.147 выдает, что происходило подозрительное скарирование и классификация идет как "Потенциально опасный трафик" и "Возможна утечка информации".  
+Suricata на все команды сканирования, кроме sudo nmap -sA 192.168.70.147 выдает, что происходило подозрительное сканирование - "Потенциально опасный трафик" и "Возможна утечка информации".  
 
 ![alt text](https://github.com/SLzDevOps/Netology-devsec13_3/blob/main/Screenshot_617.png).  
 
@@ -27,7 +27,7 @@ Suricata на все команды сканирования, кроме sudo nm
 
 ### Задание 2  
 
-При выполнении запроса sudo hydra -L users.txt -P pass.txt 192.168.70.147 ssh  (в настройках jail указано что 50 попыток а 3600 секунд)  была забанена машины kail linux c ip 192.168.70.149
+При выполнении запроса sudo hydra -L users.txt -P pass.txt 192.168.70.147 ssh  (в настройках jail указано что 50 попыток за 3600 секунд)  была забанена виртуальная машина kail linux c ip 192.168.70.149
 
 ![alt text](https://github.com/SLzDevOps/Netology-devsec13_3/blob/main/Screenshot_621.png).
 
