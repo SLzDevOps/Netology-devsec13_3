@@ -7,10 +7,10 @@
 
 ### Задание 1
 
-sudo nmap -sA 192.168.70.147
-sudo nmap -sT 192.168.70.147
-sudo nmap -sS 192.168.70.147
-sudo nmap -sV 192.168.70.147
+sudo nmap -sA 192.168.70.147  
+sudo nmap -sT 192.168.70.147  
+sudo nmap -sS 192.168.70.147  
+sudo nmap -sV 192.168.70.147  
 
 ![alt text](https://github.com/SLzDevOps/Netology-devsec13_3/blob/main/Screenshot_616.png).  
 
